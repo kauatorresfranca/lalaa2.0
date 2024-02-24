@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: rgb(208, 117, 212);
+    padding: 32px 0;
+    color: #fff;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-pai{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto-juntos{
+    width: 380px;
+    border-radius: 28px;
+    margin-top: 48px;
+}
+
+.texto-principal{
+    color: rgb(208, 117, 212) ;
+    text-align: center;
+}
+
+.txt{
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+
+.desaparesse1,.desaparesse2,.desaparesse3, .desaparesse4, .desaparesse5,.desaparesse6{
+    display: none;
+    background-color:rgb(231, 198, 233)  ;
+}
+
+.card-title{
+    background-color: rgb(120, 33, 124) ;
+    border-radius: 4px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+#span1, #span2, #span3, #span4, #span5, #span6{
+    position: absolute;
+    left: 0;
+}
+
+footer{
+    padding: 32px;
+    background-color: rgb(208, 117, 212);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.insta{
+    width: 45px;
+}
