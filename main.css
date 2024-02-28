@@ -5,13 +5,26 @@
     font-family: "Roboto", sans-serif;
 }
 
+.pai-senha{
+    position: fixed;
+    display: none;
+    margin: 25% 25%;
+    justify-content: center;
+    background-color: rgb(208, 117, 212);
+    padding: 22px 38px;
+    border-radius: 8px;
+
+}
+
+.senha{
+    display: block;
+    color: #fff;
+}
+
 header{
     background-color: rgb(208, 117, 212);
     padding: 32px 0;
     color: #fff;
-}
-
-.titulo{
     display: flex;
     justify-content: center;
 }
@@ -44,8 +57,31 @@ header{
     margin-bottom: 18px;
 }
 
+input{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
 
-.desaparesse1,.desaparesse2,.desaparesse3, .desaparesse4, .desaparesse5,.desaparesse6{
+button{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(120, 33, 124);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.desaparesse1,.desaparesse2,.desaparesse3, .desaparesse4, 
+.desaparesse5,.desaparesse6, .desaparesse7,.sub-desaparesse1,
+.sub-desaparesse2, .sub-desaparesse3,.sub-desaparesse4,.sub-desaparesse5,
+.sub-desaparesse6,.sub-desaparesse7,.sub-desaparesse8,.sub-desaparesse9,
+.sub-desaparesse10,.sub-desaparesse11,.sub-desaparesse12,.sub-desaparesse13,
+.sub-desaparesse14,.sub-desaparesse15{
     display: none;
     background-color:rgb(231, 198, 233)  ;
 }
@@ -56,9 +92,22 @@ header{
     color: #fff;
     border-bottom: 1px solid #fff;
     text-align: center;
+    cursor: pointer;
 }
 
-#span1, #span2, #span3, #span4, #span5, #span6{
+.sub-card-title{
+    background-color: rgb(208, 117, 212) ;
+    border-radius: 4px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    cursor: pointer; 
+}
+
+#span1, #span2, #span3, #span4, #span5, #span6, #span7, 
+#sub-span1,#sub-span2,#sub-span3,#sub-span4,#sub-span5,
+#sub-span6,#sub-span7,#sub-span8,#sub-span9,#sub-span10,
+#sub-span11,#sub-span12,#sub-span13,#sub-span14,#sub-span15{
     position: absolute;
     left: 0;
 }
