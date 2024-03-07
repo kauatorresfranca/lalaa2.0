@@ -8,12 +8,12 @@
 .pai-senha{
     position: fixed;
     display: none;
-    margin: 25% 25%;
+    margin: 25% 12.5%;
     justify-content: center;
     background-color: rgb(208, 117, 212);
-    padding: 22px 38px;
+    padding: 50px 78px;
     border-radius: 8px;
-
+    z-index: 1;
 }
 
 .senha{
@@ -58,10 +58,11 @@ header{
 }
 
 input{
-    width: 100%;
+    width: 100vw;
     max-width: 200px;
     height: 30px;
     margin-top: 10px;
+    white-space: nowrap;
 }
 
 button{
@@ -93,6 +94,7 @@ button{
     border-bottom: 1px solid #fff;
     text-align: center;
     cursor: pointer;
+    position: relative;
 }
 
 .sub-card-title{
