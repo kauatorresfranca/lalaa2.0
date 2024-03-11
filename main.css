@@ -104,6 +104,7 @@ button{
     border-bottom: 1px solid #fff;
     text-align: center;
     cursor: pointer; 
+    position: relative;
 }
 
 #span1, #span2, #span3, #span4, #span5, #span6, #span7, 

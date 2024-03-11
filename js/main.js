@@ -224,26 +224,4 @@ $(document).ready(function(){
             $('#sub-span13').text('>');
         }
     })
-    $('#sub-open-card14').click(function(){
-        var span = $('.sub-desaparesse14')
-        if ($('.sub-desaparesse14').css('display') === 'block'){
-            $('.sub-desaparesse14').css('display', 'none');
-            $('#sub-span14').text('<');
-        }
-        else{
-            span.css('display', 'block');
-            $('#sub-span14').text('>');
-        }
-    })
-    $('#sub-open-card15').click(function(){
-        var span = $('.sub-desaparesse15')
-        if ($('.sub-desaparesse15').css('display') === 'block'){
-            $('.sub-desaparesse15').css('display', 'none');
-            $('#sub-span15').text('<');
-        }
-        else{
-            span.css('display', 'block');
-            $('#sub-span15').text('>');
-        }
-    })
 })
