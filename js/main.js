@@ -66,6 +66,10 @@ $(document).ready(function(){
         }
     })
     $('#open-card7').click(function(){
+        if ($('.desaparesse7').css('display') === 'block') {
+            $('.desaparesse7').css('display', 'none')
+            div_senha.css('display', 'none')
+        }
         const div_senha = $('.pai-senha')
         div_senha.css('display', 'flex')
         $('.btn-sucess').click(function(){
